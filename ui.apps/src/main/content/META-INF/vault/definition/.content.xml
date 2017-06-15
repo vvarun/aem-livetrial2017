@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Live Trial Package"
+    jcr:primaryType="vlt:PackageDefinition"
+    sling:resourceType="cq/packaging/components/pack/definition"
+    buildCount="1"
+    cqVersion="6.3"
+    group="live-trial"
+    name="live-trial"
+    path="/etc/packages/live-trial/live-trial-0.0.1-SNAPSHOT"
+    version="0.0.1-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/live-trial"
+            rules="[]"/>
+
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/sling/servlet/errorhandler"
+            rules="[]"/>
+
+
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/conf/live-trial"
+            rules="[]"/>
+
+
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/clientlibs/live-trial"
+            rules="[]"/>
+
+
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/designs/live-trial"
+
+            rules="[include:/etc/designs/live-trial/jcr:content,include:/etc/designs/live-trial/jcr:content/clientlibs,include:/etc/designs/live-trial/jcr:content/clientlibs/.*]"/>
+
+    </filter>
+</jcr:root>

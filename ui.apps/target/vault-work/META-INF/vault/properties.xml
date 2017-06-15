@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Live Trial Content Package</comment>
+<entry key="createdBy">root</entry>
+<entry key="name">live-trial.ui.apps</entry>
+<entry key="created">2017-06-15T14:16:14.554+1000</entry>
+<entry key="groupId">com.livetrial</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">live-trial</entry>
+<entry key="description">Maven Multimodule project for Live Trial.</entry>
+<entry key="artifactId">live-trial.ui.apps</entry>
+<entry key="path">/etc/packages/live-trial/live-trial.ui.apps.zip</entry>
+</properties>
