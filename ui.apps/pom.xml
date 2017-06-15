@@ -197,8 +197,8 @@
                                 </goals>
                                 <configuration>
                                     <targetURL>http://${publish.crx.host}:${publish.crx.port}/crx/packmgr/service.jsp</targetURL>
-                                    <userId>${publish.crx.username}</userId>
-                                    <password>${publish.crx.password}</password>
+                                    <userId>admin</userId>
+                                    <password>password</password>
                                 </configuration>
                             </execution>
                         </executions>

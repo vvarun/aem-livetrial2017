@@ -25,11 +25,11 @@
         <crx.host>localhost</crx.host>
         <crx.port>4502</crx.port>
         <crx.username>admin</crx.username>
-        <crx.password>livetrial</crx.password>
+        <crx.password>password</crx.password>
         <publish.crx.host>localhost</publish.crx.host>
         <publish.crx.port>4503</publish.crx.port>
         <publish.crx.username>admin</publish.crx.username>
-        <publish.crx.password>admin</publish.crx.password>
+        <publish.crx.password>password</publish.crx.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
