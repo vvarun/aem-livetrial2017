@@ -2,9 +2,9 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Live Trial Content Package</comment>
-<entry key="createdBy">root</entry>
+<entry key="createdBy">vvenkata</entry>
 <entry key="name">live-trial.ui.apps</entry>
-<entry key="created">2017-06-15T14:16:14.554+1000</entry>
+<entry key="created">2017-06-16T16:15:58.525+1000</entry>
 <entry key="groupId">com.livetrial</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>
